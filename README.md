@@ -63,5 +63,5 @@ $$ L(M) = \\{ w | w \in \{ a,b \}^{\*} \text{ and } |a|=|b|\\} $$
 
 ## TODO
 
-- [] Fix the FinalTransform class so that it actually uses matrix multiplication
-- [] Find a way to round out the numbers so that this can work without infinite precision
+- [ ] Fix the FinalTransform class so that it actually uses matrix multiplication
+- [ ] Find a way to round out the numbers so that this can work without infinite precision
