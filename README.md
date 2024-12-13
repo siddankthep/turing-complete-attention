@@ -26,8 +26,10 @@ To run the Transformer, do the following:
 ### Vectors and Embedding
 
 For the Turing machine to recognize strings with equal number of a's and b's, we define
-$$\Sigma = \{ a, b, X, \# \} $$
-$$Q = \{ q*{init}, q*{read}, q_1, q_2, q_3, q_4\} $$
+
+$$\Sigma = \\{ a, b, X, \\# \\}$$
+
+$$Q = \\{ q_{init}, q_{read}, q_1, q_2, q_3, q_4\\} $$
 Thus, we have the dimensions for the vectors in the Transformers
 $$ d = 2|Q| + 4|\Sigma| + 11 = 14 + 16 + 11 = 41 $$
 
@@ -53,7 +55,7 @@ This can be implemented as a few feed-forward layers, in other words matrix mult
 
 The example provided in [turing.py](turing.py) is the Turing Machine that recognizes the following language
 
-$$ L(M) = \{ w | w \in \{ a,b \}^{\*} \text{ and } |a|=|b|\} $$
+$$ L(M) = \\{ w | w \in \{ a,b \}^{\*} \text{ and } |a|=|b|\\} $$
 
 ![Turing machine](turing.png)
 
