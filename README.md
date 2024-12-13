@@ -1,6 +1,8 @@
 # Attention is Turing Complete
 
-Implementation of the Transformer architecture described in the paper Attention is Turing Complete
+Implementation of the Transformer architecture described in the paper Attention is Turing Complete. I am not the author.
+
+<a href='https://arxiv.org/pdf/1901.03429'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 ## Usage
 
